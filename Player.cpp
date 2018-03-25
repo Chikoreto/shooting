@@ -72,9 +72,9 @@ void Player::Uodate()
 void Player::Draw()
 {
 	//HPÉoÅ[
-	DrawBox(32, 0, 64*5, 32, GetColor(255, 255, 255), FALSE);
-	DrawBox(33, 1, 64 * hp+1, 33, GetColor(255, 255, 255), TRUE);
-
+	DrawBox(32, 0, 64*5, 16, GetColor(255, 255, 255), FALSE);
+	DrawBox(33, 1, 64 * hp+1, 17, GetColor(255, 255, 255), TRUE);
+	DrawString(0, 0, "HP", GetColor(255, 255, 255));
 
 	DrawGraph(point.x, point.y, graphic, true);
 

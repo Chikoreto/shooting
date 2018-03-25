@@ -19,5 +19,7 @@ void Title::Update()
 
 void Title::Draw()
 {
-	DrawString(0, 20, "aキーを押すとゲーム本体。", GetColor(255, 255, 255));
+	DrawString(300, 100, "Aボタンでゲームスタート", GetColor(255, 255, 255));
+	DrawString(0, 650, "十字キーで移動", GetColor(255, 255, 255));
+	DrawString(0, 700, "Zキーで弾発射", GetColor(255, 255, 255));
 }
